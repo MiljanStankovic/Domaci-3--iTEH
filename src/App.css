@@ -1,0 +1,93 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(39, 175, 209, 0.767);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color:  rgb(10, 10, 10);
+  align-items: center;
+  min-height: 60px;
+  padding-left: 570px;
+  font-size: x-large;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.cart-num {
+  background-color: rgb(88, 207, 128);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+}
+
+.all-students {
+  display: flex;
+  margin: 20px;
+}
+
+.card {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: rgb(35, 17, 115);
+  border-radius: 12px;
+  max-width: 200px;
+  margin: 5px;
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 200px;
+  height:250px;
+}
+
+.card-body {
+  margin: 10px;
+}
+
+.btn {
+  background-color:  rgb(145, 230, 183);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 3px;
+  border-radius: 3px;
+  border-width: 0px;
+}
+
+a {
+  color: rgb(45, 17, 115);
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-left: 420px;
+  padding-left: 10px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(89, 38, 219);
+  border-radius: 20px;
+  max-width: 650px;
+}
+
+.card-img-left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
